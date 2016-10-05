@@ -1,0 +1,222 @@
+
+/****** Header *****/
+
+/****** Header End *****/
+
+/****** Content *****/
+
+/****** Content End *****/
+/****** Footer *****/
+
+
+/****** Footer End *****/
+
+/*Responsive tablet to mobile*/
+@media screen and (max-width: 1280px) {
+  .content-right-ads{display: none;}
+}
+@media screen and (max-width: 768px) {
+
+  /*Header*/
+  header {
+    padding: 15px 0;
+  }
+  .logo {
+    margin-bottom: 4px;
+  }
+  .top-right-content {
+    font-size: 14px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  .top-right-content .links-account {
+    position: absolute;
+    right: 0;
+    top: -20px;
+  }
+  .search-content input[type="text"] {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+  .search-content input[type="submit"] {
+    height: 40px;
+    width: 55px;
+  }
+  .top-right-content .search-content {
+    margin-left: 0;
+    margin-top: 6px;
+    max-width: 100%;
+  }
+
+  .cg-networks-header {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  /*Navigation*/
+  nav.cg-networks-menu{
+    background-image: none !important;
+  }
+  .main-navigation.cg-networks-navigation > li:first-child > a{
+    background-image: none !important;
+    padding-left: 20px !important;
+  }
+  .mobile-navigation {
+    background-color: #333 !important;
+    background-image: url("../images/mobile-menu-icon.png") !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    cursor: pointer !important;
+    height: 35px !important;
+  }
+  .main-navigation{
+    display: none !important;
+  }
+  .mobile-show-menu{
+    display: block !important;
+  }
+  ul.main-navigation > li {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  .main-navigation > li > a {
+    border-bottom: 1px solid #ededed !important;
+    border-right: medium none !important;
+    display: block !important;
+    padding: 7px 20px !important;
+    width: 100% !important;
+  }
+
+  ul.cg-networks-navigation {
+    background-image: none !important;
+  }
+  .main-navigation.cg-networks-navigation > li > a {
+    color: #2b2b2b !important;
+    padding: 7px 20px !important;
+  }
+  .main-navigation.cg-networks-navigation > li > a:hover {
+    color: #f03c3c !important;
+  }
+
+  /*News Page*/
+  .technology-posts-content img {
+    width: 100%;
+  }
+
+  /*Feed page*/
+  .friend-count {
+    background-position: 5px 5px;
+  }
+
+}
+@media screen and (max-width: 640px) {
+  .cg-networks-header {
+    text-align: center;
+  }
+  /*Feed page*/
+  .friend-count {
+    background-position: 0 5px;
+  }
+
+  /*writings*/
+  .writings-left > img {
+    margin-bottom: 15px;
+  }
+  .account-artwork-list img {
+    width: 100%;
+  }
+
+  /*topic page*/
+  .topic-posting-reply {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+  }
+  .topic-posting-left > img {
+    margin-bottom: 20px;
+  }
+  .topic-posting-reply .topic-posting-left > img {
+    margin-top: 20px;
+  }
+  .topic-posting-category {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+
+  /*Header*/
+  .logo {
+    display: block;
+    margin: auto auto 10px;
+  }
+  .top-right-content {
+    text-align: center;
+  }
+  .top-right-content .links-account {
+    position: relative;
+    top: 0;
+  }
+
+  .account-user-name{
+    float: none;
+    padding: 0;
+  }
+  .account-membership {
+    float: none;
+    padding-bottom: 4px;
+    padding-top: 4px;
+  }
+  .account-user-name {
+    margin-top: 10px
+  }
+
+  /*Slider Arrow*/
+  .slider-arrow{
+    display: none;
+  }
+
+  .tops-list-content {
+    font-size: 14px;
+  }
+  .list-information-content {
+    height: auto;
+    margin-bottom: 15px;
+  }
+  .list-information-content > img {
+    float: none;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+
+  /*Feed page*/
+  .feed-buttons a {
+    margin-bottom: 10px;
+  }
+
+  /*Friend Page*/
+  .friends-social-links {
+    float: none;
+  }
+
+  /*Friend requests Page*/
+  .friends-requests-social-links {
+    float: none;
+    margin-top: 12px;
+  }
+
+  /*Message Page*/
+  .messages-buttons {
+    float: none;
+    top: 5px;
+  }
+
+  /*Writings page*/
+  .writings-post-date{
+    float: none;
+  }
+
+  /*Topic */
+  .topic-posting-buttons a {
+    margin-bottom: 10px;
+  }
+}
